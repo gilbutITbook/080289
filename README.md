@@ -7,13 +7,14 @@
 ### =========================================
 
 ### ∙아래 설명을 꼭 읽어주세요!!!
+∙대용량 데이터셋은 깃허브에 올라가지 않습니다. 따라서 아래의 안내에 따라 데이터를 내려받은 후 각 폴더에 넣어 사용합니다.
 
-∙10장 wiki.ko.vec만 별도로 내려받습니다.(약 2GB))</br>
+∙1) 10장 wiki.ko.vec만 별도로 내려받습니다.(약 2GB))</br>
 https://fasttext.cc/docs/en/pretrained-vectors.html 에서 Korea의 txt 파일 </br>
 
 ∙내려받은 wiki.ko.vec 파일은 10장의 data 폴더 > wiki.co 파일에 넣어서 사용합니다.
 
-∙대용량 데이터셋은 깃허브에 올라가지 않습니다. 아래 링크에서 내려받아 각 챕터의 data 폴더에 넣어 실습하세요. </br>
+2) 아래 링크에서 glove.yb.100d.txt를 내려받습니다. 10장의 data 폴더에 넣어 실습하세요. </br>
 
 >∙ 10장 [glove.6B.100d.txt_내려받기](https://github.com/gilbutITbook/080263/releases/download/0.2/glove.6B.100d.txt) </br>
    사이트 URL: https://nlp.stanford.edu/projects/glove/ </br>
