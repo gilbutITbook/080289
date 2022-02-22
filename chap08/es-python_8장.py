@@ -155,6 +155,8 @@ args = vars(parser.parse_args())
 # In[10]:
 
 
+#!pip install ipywidgets 혹은
+#anaconda prompt에서 conda install -c conda-forge ipywidgets 실행
 print(f"Computation device: {device}\n")
 model = models.resnet50(pretrained=True).to(device)
 total_params = sum(p.numel() for p in model.parameters())
@@ -290,7 +292,7 @@ print(f"Training time: {(end-start)/60:.3f} minutes")
 
 plt.figure(figsize=(10, 7))
 plt.plot(train_accuracy, color='green', label='train accuracy')
-plt.plot(val_accuracy, color='blue', label='validataion accuracy')
+plt.plot(val_accuracy, color='blue', label='validation accuracy')
 plt.xlabel('Epochs')
 plt.ylabel('Accuracy')
 plt.legend()
@@ -299,7 +301,7 @@ plt.show()
 
 plt.figure(figsize=(10, 7))
 plt.plot(train_loss, color='orange', label='train loss')
-plt.plot(val_loss, color='red', label='validataion loss')
+plt.plot(val_loss, color='red', label='validation loss')
 plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.legend()
